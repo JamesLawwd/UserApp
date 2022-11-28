@@ -7,21 +7,21 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/titlesignUp"
+        android:id="@+id/titleLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SignUp"
-       android:layout_above="@+id/cardSignup"
+        android:text="Login"
+        android:layout_above="@+id/cardLogin"
         android:layout_marginBottom="35dp"
         android:textColor="@color/white"
         android:layout_marginStart="140dp"
         android:textSize="30dp"/>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardSignup"
+        android:id="@+id/cardLogin"
         android:layout_width="350dp"
         android:layout_height="300dp"
         android:layout_marginBottom="92dp"
@@ -37,25 +37,15 @@
         </LinearLayout>
 
 
-        <EditText
-            android:id="@+id/userName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:hint="Username"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/white"
-            android:textSize="24dp" />
+
 
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="60dp"
+
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp"
             android:hint="Email"
             android:textAlignment="center"
@@ -63,26 +53,15 @@
             android:textColorHint="@color/white"
             android:textSize="24dp" />
 
-        <EditText
-            android:id="@+id/phone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="20dp"
-            android:hint="phoneNo."
-            android:background=""
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textColorHint="@color/white"
-            android:textSize="24dp" />
+
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="120dp"
+
             android:layout_marginEnd="20dp"
             android:hint="password"
             android:textAlignment="center"
@@ -91,10 +70,9 @@
             android:textSize="24dp" />
 
         <Button
-            android:id="@+id/btnSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="signUp"
+            android:text="Login"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:layout_marginStart="129dp"
@@ -106,24 +84,24 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
-        android:id="@+id/textRegistered"
+        android:id="@+id/textNotRegistered"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Already Registered ?"
+        android:text="Not Registered Yet?"
         android:textColor="@color/white"
         android:layout_marginTop="330dp"
         android:textSize="20dp"
         android:layout_marginStart="75dp"/>
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/search_close_btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-       android:layout_marginTop="320dp"
+        android:background="@drawable/shape1"
+        android:layout_marginTop="320dp"
         android:layout_marginStart="270dp"
-        android:layout_marginBottom="80dp"
-        />
+        android:layout_marginBottom="80dp" />
 
 
 
