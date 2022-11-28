@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+       android:layout_above="@+id/cardSignup"
+        android:layout_marginBottom="35dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="140dp"
+        android:textSize="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSignup"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="92dp"
+        app:cardBackgroundColor="#09134E"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:hint="phoneNo."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="20dp"
+            android:hint="password"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="signUp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="200dp"
+            android:textSize="20dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
